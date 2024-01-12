@@ -3,12 +3,18 @@ header {
     text-align: center; 
     padding: 20px;
  }
- background-color: #f5f5dc
+
 /*navigation menu style*/
 nav {
     text-align: center;
     word-spacing: 30px;
     Padding: 10px;
+ }
+
+ body {
+    background-color: ##d5e09c
+
+
  }
  .center {
     display: block;
@@ -16,6 +22,8 @@ nav {
     margin-right: auto;
     width: 50%;
   }
+
+
 /*creating the two-column layout
 *{
     box-sizing: border-box;
