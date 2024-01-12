@@ -2,7 +2,7 @@
 header {
     text-align: center; 
     padding: 20px;
-    background-color: ##d5e09c;
+    background-color: #d5e09c;
  }
 
 /*navigation menu style*/
@@ -26,6 +26,9 @@ nav {
     width: 50%;
   }
 
+  .button {
+    width: 20%;
+  }
 
 /*creating the two-column layout
 *{
