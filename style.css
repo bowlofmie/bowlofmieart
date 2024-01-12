@@ -2,6 +2,7 @@
 header {
     text-align: center; 
     padding: 20px;
+    background-color: ##d5e09c;
  }
 
 /*navigation menu style*/
@@ -12,7 +13,8 @@ nav {
  }
 
  body {
-    background-color: ##d5e09c
+    background-color: ##d5e09c;
+    text-align: center;
 
 
  }
