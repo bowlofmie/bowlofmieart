@@ -10,4 +10,7 @@ navigation bar:
 
 flex in css so site works on different platforms
 
+bootstrap instead of flex
+span tag to edit any element
+
 #d5e09c
