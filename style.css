@@ -7,13 +7,14 @@ header {
 
 /*navigation menu style*/
 nav {
+    background-color: khaki;
     text-align: center;
     word-spacing: 30px;
     Padding: 10px;
  }
 
  body {
-    background-color: aquamarine;
+    background-color: antiquewhite;
     text-align: center;
 
 
