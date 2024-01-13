@@ -33,6 +33,11 @@ p {
     width: 20%;
   }
 
+  img {
+    border-radius: 50%;
+  }
+  
+
 /*creating the two-column layout
 *{
     box-sizing: border-box;
