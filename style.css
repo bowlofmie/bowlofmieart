@@ -1,6 +1,5 @@
 /*header style*/
 header {
-    
     text-align: center; 
     padding: 20px;
     background-color: #d5e09c;
@@ -11,15 +10,18 @@ nav {
     background-color: khaki;
     text-align: center;
     word-spacing: 30px;
-    Padding: 10px;
+    padding: 10px;
  }
 
  body {
     background-color: antiquewhite;
     text-align: center;
-
-
  }
+
+p {
+    font-family: cursive;
+}
+
  .center {
     display: block;
     margin-left: auto;
