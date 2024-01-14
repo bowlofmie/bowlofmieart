@@ -14,7 +14,7 @@ nav {
  }
 
  body {
-    background-color: antiquewhite;
+    background-color: rgb(238, 216, 187);
     text-align: center;
  }
 
@@ -38,8 +38,36 @@ p {
     padding-left: 10px;
     padding-right: 10px;
   }
-  
+  /* from Manoz on codepen.io */
+  @keyframes loadingC {
+    0 {
+      transform: translate(0, 0);
+    }
+    50% {
+      transform: translate(0, 15px);
+    }
+    100% {
+      transform: translate(0, 0);
+    }
+  }
+/* loading caterpillar
+  .line {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    background-color: #4b9cdb;
+  }
 
+  .load-3 .line:nth-last-child(1) {
+    animation: loadingC 0.6s 0.1s linear infinite;
+  }
+  .load-3 .line:nth-last-child(2) {
+    animation: loadingC 0.6s 0.2s linear infinite;
+  }
+  .load-3 .line:nth-last-child(3) {
+    animation: loadingC 0.6s 0.3s linear infinite;
+  }
 /*creating the two-column layout
 *{
     box-sizing: border-box;
@@ -64,3 +92,4 @@ p {
     margin-right: 0;
  }
  */
+ 
