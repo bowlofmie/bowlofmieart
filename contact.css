@@ -3,6 +3,13 @@ p {
     text-align: left;
 }
 
+@media (min-width: 1200px) {
+    p {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
+
 a {
     font-family: "Shantell";
 }
