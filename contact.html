@@ -1,8 +1,28 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="contact.css">
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous">
+        </script>
+        <script> 
+            $(function(){ 
+                $("#head").load("head.html"); 
+                $("#header").load("header.html"); 
+                $("#footer").load("footer.html");
+            });
+        </script> 
+    
+        <style>
+             body {
+                background-color: rgb(238, 216, 187);
+             }
+        </style>
+    
+        <div id="head"></div>
+        <title>Bowl of Mie! 🍲</title>
+        <link rel="stylesheet" href="contact.css"/>
     </head>
     <body>
         <img src="art/childhood.jpg" style="width: 20%" class="left"/>
