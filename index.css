@@ -1,11 +1,9 @@
 .container .col {
-    max-width: 100%; /* somehow, even though unneeded, makes the loading of content prettier */
     display: block;
     padding: 0;
 }
 
 .container .col img.w-100{
-    max-width: 100%; /* this too */
     border-radius: 10%;
     padding: 1vw;
 }
