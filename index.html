@@ -12,6 +12,18 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
+
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous">
+    </script>
+    <script> 
+        $(function(){
+            $("#header").load("header.html"); 
+            $("#footer").load("footer.html"); 
+        });
+    </script> 
 </head>
 <!--
     <nav>
@@ -31,10 +43,7 @@
                   </div> -->
 
 <body>
-    <header>
-        <img src="assets/thumbnails/banner.PNG" alt="banner image"/>
-        <p> Hello! I'm an independent artist constantly inspired by the lovely things in the world. </p>
-    </header>
+    <div id="header"></div>
 
     <main>
 
@@ -56,15 +65,7 @@
         </div>
     </main>
 
-    <footer>
-        <img src="assets/thumbnails/fiber arts.PNG" alt="fiber arts" class="button" />
-        <img src="assets/thumbnails/houses.PNG" alt="houses" class="button" />
-        <img src="assets/thumbnails/landscapes.PNG" alt="landscapes" class="button" />
-        <img src="assets/thumbnails/portraits.PNG" alt="portraits" class="button" />
-        <a href="contact.html">
-            <img src="assets/thumbnails/talk to me.PNG" alt="talk to me" class="button" />
-        </a>
-    </footer>
+    <div id="footer"></div>
 </body>
 
 </html>
