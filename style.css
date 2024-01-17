@@ -1,3 +1,9 @@
+
+@font-face {
+    font-family: "Shantell";
+    src: url("fonts/ShantellCustom.ttf");
+}
+
 /*header style*/
 header {
     text-align: center; 
@@ -19,7 +25,7 @@ nav {
  }
 
 p {
-    font-family: "fonts/ShantellCustom.ttf";
+    font-family: "Shantell";
 }
 
  .center {
