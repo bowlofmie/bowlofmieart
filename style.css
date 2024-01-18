@@ -42,14 +42,13 @@ header {
 
 /*navigation menu style*/
 nav {
-    background-color: khaki;
     text-align: center;
     word-spacing: 30px;
     padding: 10px;
  }
 
  body {
-    background-color: rgb(238, 216, 187);
+    background-color: #ffebce;
     text-align: center;
  }
 
