@@ -1,7 +1,7 @@
 
 @font-face {
-    font-family: "Shantell";
-    src: url("fonts/ShantellCustom.ttf");
+    font-family: "Fink";
+    src: url("fonts/Fink-Heavy-Font/FinkHeavy.ttf");
 }
 
 /*header style*/
@@ -53,7 +53,7 @@ nav {
  }
 
  p {
-    font-family: "Shantell";
+    font-family: "Fink";
  }
 
  .center {
